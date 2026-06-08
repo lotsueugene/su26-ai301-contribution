@@ -1,15 +1,14 @@
-# Contribution [#]: [Issue Title]
+# Contribution 1: #Tools > File Editor should give more descriptive error messages
 
-**Contribution Number:** [1 / 2 / 3]  
-**Student:** [Your Name]  
-**Issue:** [GitHub issue link]  
-**Status:** [Phase I / Phase II / Phase III / Phase IV] [In Progress / Complete]
+**Contribution Number:** 1 
+**Student:** Eugene Lotsu 
+**Issue:** [Issue #4333](https://github.com/Yoast/wordpress-seo/issues/4333)  
+**Status:** Phase 1 Complete
 
 ---
 
 ## Why I Chose This Issue
-
-[1-2 paragraphs explaining why this issue interests you, how it matches your skills/learning goals, what you hope to learn]
+I chose this issue because it is a beginner-friendly contribution that focuses on improving the user experience. The current error message does not clearly explain whether the problem is caused by insufficient permissions or a filesystem issue. By improving the error handling and messaging, users will receive more accurate feedback, making the application easier to understand and troubleshoot. This issue also gives me an opportunity to learn more about the codebase and contribute to an open-source project in a meaningful way.
 
 ---
 
