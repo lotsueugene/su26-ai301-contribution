@@ -2,7 +2,7 @@
 **Contribution Number:** 1
 **Student:** Eugene Lotsu
 **Issue:** [Issue #4333](https://github.com/Yoast/wordpress-seo/issues/4333)
-**Status:** Phase 2 Complete
+**Status:** Phase IV Complete
 
 ---
 
@@ -99,19 +99,19 @@ The existing POST handlers in `tool-file-editor.php` already use `current_user_c
 - Does not break behavior for users who do have `edit_files`
 
 **Evaluate:**
-- Log in as SEO Manager → SEO > Tools → File Editor entry now shows with permissions message ✅
-- Click File Editor link → "You do not have sufficient permissions to edit files." message shown ✅
-- Log in as Administrator → File Editor works as normal ✅
+- Log in as SEO Manager → SEO > Tools → File Editor entry now shows with permissions message 
+- Click File Editor link → "You do not have sufficient permissions to edit files." message shown 
+- Log in as Administrator → File Editor works as normal 
 
 ---
 
 ## Testing Strategy
 
 ### Manual Testing
-- [x] SEO Manager user sees File Editor listed on Tools page with permissions message
-- [x] SEO Manager user clicking File Editor link sees clear permission error
-- [x] Administrator user sees no change in behavior — File Editor works normally
-- [x] Verified fix is in the correct file (`tool-file-editor.php`, not `file-editor.php`)
+- [] SEO Manager user sees File Editor listed on Tools page with permissions message
+- [] SEO Manager user clicking File Editor link sees clear permission error
+- [] Administrator user sees no change in behavior — File Editor works normally
+- [] Verified fix is in the correct file (`tool-file-editor.php`, not `file-editor.php`)
 
 ### Unit Tests
 - [ ] Test that `allow_system_file_edit()` returns `false` for users without `edit_files`
